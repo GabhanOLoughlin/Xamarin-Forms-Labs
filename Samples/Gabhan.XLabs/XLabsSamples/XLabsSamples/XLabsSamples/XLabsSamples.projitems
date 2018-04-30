@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{61007F38-4BD2-4CFF-9F4A-DA1C41914B95}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>XLabsSamples</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Data\IImageListSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\ImageListItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\JsonImageListSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Model\TestModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\AutoCompletePage.xaml.cs">
+      <DependentUpon>AutoCompletePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\ButtonGroupPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\ButtonPage.xaml.cs">
+      <DependentUpon>ButtonPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\CalendarPage.xaml.cs">
+      <DependentUpon>CalendarPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\CameraViewPage.xaml.cs">
+      <DependentUpon>CameraViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\CarouselSample.xaml.cs">
+      <DependentUpon>CarouselSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\Charts\BarChartPage.xaml.cs">
+      <DependentUpon>BarChartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\Charts\BoundChartPage.xaml.cs">
+      <DependentUpon>BoundChartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\Charts\BoundChartViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\Charts\CombinationPage.xaml.cs">
+      <DependentUpon>CombinationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\Charts\LineChartPage.xaml.cs">
+      <DependentUpon>LineChartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\Charts\PieChartPage.xaml.cs">
+      <DependentUpon>PieChartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\CheckBoxPage.xaml.cs">
+      <DependentUpon>CheckBoxPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\CircleImagePage.xaml.cs">
+      <DependentUpon>CircleImagePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\DragPage.xaml.cs">
+      <DependentUpon>DragPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedButtonPage.xaml.cs">
+      <DependentUpon>ExtendedButtonPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedCellPage.xaml.cs">
+      <DependentUpon>ExtendedCellPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedEntryPage.xaml.cs">
+      <DependentUpon>ExtendedEntryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedLabelPage.xaml.cs">
+      <DependentUpon>ExtendedLabelPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedPickerPage.xaml.cs">
+      <DependentUpon>ExtendedPickerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedScrollView.xaml.cs">
+      <DependentUpon>ExtendedScrollView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedSliderPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedSwitchPage.xaml.cs">
+      <DependentUpon>ExtendedSwitchPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedTextCellPage.xaml.cs">
+      <DependentUpon>ExtendedTextCellPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedTimePickerPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\GestureSample.xaml.cs">
+      <DependentUpon>GestureSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\GridViewPage.xaml.cs">
+      <DependentUpon>GridViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\HypberLinkLabelPage.xaml.cs">
+      <DependentUpon>HypberLinkLabelPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\IconButtonPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\IconLabelPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\ImageGalleryPage.xaml.cs">
+      <DependentUpon>ImageGalleryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\PopupPage.xaml.cs">
+      <DependentUpon>PopupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\RadioButtonPage.xaml.cs">
+      <DependentUpon>RadioButtonPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\RepeaterViewPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\SegmentedControlViewPage.xaml.cs">
+      <DependentUpon>SegmentedControlViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\SegmentPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\SeparatorPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\UsPresidentList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\ValidatorSample.xaml.cs">
+      <DependentUpon>ValidatorSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\WebHybridTestPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Controls\WebImagePage.xaml.cs">
+      <DependentUpon>WebImagePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Mvvm\CanvasWebHybrid.xaml.cs">
+      <DependentUpon>CanvasWebHybrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Mvvm\MvvmSamplePage.xaml.cs">
+      <DependentUpon>MvvmSamplePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Mvvm\NewPageView.xaml.cs">
+      <DependentUpon>NewPageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Samples\ConverterPage.xaml.cs">
+      <DependentUpon>ConverterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Samples\OrientationPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Samples\WebHybridSamplePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Samples\WebPageLoadSample.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\AbsoluteLayoutWithDisplayInfoPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\AcceleratorSensorPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\CacheServicePage.xaml.cs">
+      <DependentUpon>CacheServicePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\CameraPage.xaml.cs">
+      <DependentUpon>CameraPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\EmailPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\ExtendedDeviceInfoPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\FontManagerPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\GeolocatorPage.xaml.cs">
+      <DependentUpon>GeolocatorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\GyroscopePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\NfcDevicePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\PhoneServicePage.xaml.cs">
+      <DependentUpon>PhoneServicePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\SecureStoragePage.xaml.cs">
+      <DependentUpon>SecureStoragePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\SoundPage.xaml.cs">
+      <DependentUpon>SoundPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\TextToSpeechPage.xaml.cs">
+      <DependentUpon>TextToSpeechPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Services\WaveRecorderPage.xaml.cs">
+      <DependentUpon>WaveRecorderPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\AutoCompleteViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\BaseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\BluetoothViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\CacheServiceViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\CameraViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\GeolocatorViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\GestureSampleVM.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\MovieSearchViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\MvvmSampleViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\NewPageViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\RepeaterViewViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\SoundServiceViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ViewModelLocator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\WaveRecorderViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\WebHybridViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Data\PresidentList.json" />
+    <Content Include="$(MSBuildThisFileDirectory)Data\WebHybridTest.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\AutoCompletePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\ButtonPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\CalendarPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\CameraViewPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\CarouselSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\Charts\BarChartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\Charts\BoundChartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\Charts\CombinationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\Charts\LineChartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\Charts\PieChartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\CheckBoxPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\CircleImagePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\DragPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedButtonPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedCellPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedEntryPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedLabelPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedPickerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedScrollView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedSwitchPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\ExtendedTextCellPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\GestureSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\GridViewPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\HypberLinkLabelPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\ImageGalleryPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\PopupPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\RadioButtonPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\SegmentedControlViewPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\ValidatorSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Controls\WebImagePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Mvvm\CanvasWebHybrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Mvvm\MvvmSamplePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Mvvm\NewPageView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Samples\ConverterPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Services\CacheServicePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Services\CameraPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Services\GeolocatorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Services\PhoneServicePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Services\SecureStoragePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Services\SoundPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Services\TextToSpeechPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\Services\WaveRecorderPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Settings.StyleCop" />
+  </ItemGroup>
+</Project>
